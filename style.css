@@ -1,0 +1,139 @@
+header{
+	background-image: url(/images/bg-header-mobile.png);
+	padding-top: 10vh;
+	padding-bottom: 7vh;
+}
+
+#topimage,#bottomimage{
+	display: block;
+	margin: auto;
+}
+
+body{
+	margin: 0;
+}
+.main{
+	padding: 5vw;
+}
+
+
+h2,p{
+	font-family: Bai Jamjuree;
+	font-weight: 400;
+	text-align: center;
+	
+}
+p{
+	font-size: 5vw;
+}
+
+h2{
+	
+	font-size: 9vw;
+}
+
+.b{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+.b>button{
+	width: 40%;
+}
+
+#computer,#devices{
+	width: 90%;
+	display: block;
+	margin: auto;
+}
+
+.list{
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 10vh;
+}
+
+.list>div>img{
+	display: block;
+	margin: auto;
+}
+
+.list>img{
+	display: block;
+	margin: auto;
+	padding-top: 10vh;
+}
+.list>a{
+	padding: 0.7vw;
+}
+
+.bi{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+footer{
+	padding: 10vh;
+	background-color: hsla(201, 11%, 66%,0.1);
+	
+}
+
+button{
+	width: 70%;
+	margin: 2vh;
+	padding: 1.5vh;
+	border-radius: 5%;
+	border-style: none;
+	
+
+}
+
+
+.ios{
+	background-color: hsl(171, 66%, 44%);
+}
+
+.mac{
+	background-color: hsl(233, 100%, 69%);
+}
+
+@media screen and (min-width:1440px){
+	header{
+		background-image: url(/images/bg-header-desktop.png);
+		padding-top: 10vh;
+		padding-bottom: 7vh;
+	}
+
+	.main{
+		padding-left: 15vw;
+		padding-right: 15vw;
+	}
+
+	p{
+		font-size: 2vw;
+	}
+	
+	h2{
+		
+		font-size: 4.5vw;
+	}
+
+	.b{
+		flex-direction: row;
+	}
+
+	.list{
+		margin-top: 5vw;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+	.list>a{
+		font-size: 2vw;
+	}
+}
